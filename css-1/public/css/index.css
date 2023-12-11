@@ -1,0 +1,118 @@
+:root {
+    background-color: rgb(255, 255, 255);
+  }
+  *{
+    color: black;
+  }
+  h1 {
+  color: blue;
+  }
+  .green{
+    color: green;
+  }
+  #blue{
+    color:  blue;
+  }
+  p{
+    background-color: red;
+  }
+  div {
+  background-color: green;  
+  }
+  .brown{
+    background-color: brown;
+    color: white;
+  }
+  ul > li {
+    background-color: red;
+  }
+  button.header-button + span{
+    background-color: red;
+  }
+  p.susid ~ p{
+    background-color: blue;
+  }
+  .salo, #bread{
+    background-color: yellow;
+  }
+  .first-task ul > li:first-child {
+    color: white;
+  }
+  
+  .second-task ul:first-child > li:first-child {
+    color: yellow;
+  }
+  
+    .third-task ul:nth-child(2) > li:first-child {
+      background-color: yellow;
+    }
+  
+    .four-task ul > li:last-child {
+      background-color: yellow;
+    }
+    
+  .five-task ul:last-of-type > li:last-child {
+    color: white;
+  }
+  .only-child-task div:only-child{
+    background-color: red;
+  }
+  .seven-task p:first-of-type {
+    background-color: red;
+  }
+  
+  .eight-task div > p:last-of-type{
+    background-color: red;
+  }
+  div.text-wrapper > p:only-of-type{
+    background-color: yellow;
+  }
+  a[href]{
+    color: white;
+  }
+  .lesson-three-task-two li[value]{
+    color: yellow;
+  }
+  .lesson-three-task-three li[value|="3"]{
+    background-color: red;
+  }
+  button[class~="primary"] {
+    background-color: blue;
+  }
+  
+  button[class~=secondary]{
+    background-color: red;
+  }
+  ul > li[class^="b"] {
+    color: green;
+    background-color: white;
+  }
+  ul > li[class*="on"] {
+    color: green;
+    background-color: white; 
+  
+  }
+  span[class$="s"] {
+    background-color: white;
+    color: blue;
+  }
+  h2::first-letter {
+    color: red;
+  }
+  /* p::first-line{
+    background-color: yellow;
+  } */
+  p:first-child {
+    background-color: yellow;
+  }
+  input::placeholder {
+    background-color: red;
+  }
+  
+  ul > li::before {
+    content: "➤";
+  
+  }
+  ul > li::after {
+    content: "➤";
+  }
